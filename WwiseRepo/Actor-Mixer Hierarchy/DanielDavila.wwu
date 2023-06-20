@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C6242339-F7FF-4CD0-9208-F9CE298EA81B}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="DanielDavila" ID="{C6242339-F7FF-4CD0-9208-F9CE298EA81B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Alarma de cocción" ID="{C18566BD-2451-4437-857A-74AA169DA58D}" ShortID="168870484">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34BF1745-ACB3-46F8-9B6B-57FE02AF290E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{67C3369F-6C9A-4753-B855-1686140B75AD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Alarma de cocción" ID="{BAD8CBD8-2528-4951-B23A-D8A968587B2C}">
+							<Language>SFX</Language>
+							<AudioFile>Alarma de cocción.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="295752638"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Alarma de cocción" ID="{BAD8CBD8-2528-4951-B23A-D8A968587B2C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
